@@ -2,3 +2,7 @@ Leetcode :
 	167 - Two Sum II
 	26 - Remove Duplicates in sorted array 
 	80 - Remove Duplicates in sorted array II
+
+	15 - 3SUM
+	16 - 3SUM closest
+	

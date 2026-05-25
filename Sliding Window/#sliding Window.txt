@@ -1,0 +1,6 @@
+## I have notes in hard copy
+
+Leetcode :
+    209 -      Smallest Subarray with a given sum (easy) -        https://leetcode.com/problems/minimum-size-subarray-sum/
+gfg:    -      Maximum Sum Subarray of Size K (easy) -               https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+     

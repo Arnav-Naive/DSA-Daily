@@ -1,8 +1,12 @@
 ## I have notes in hard copy
 
 Leetcode :
-    209 -      Smallest Subarray with a given sum (easy) -        https://leetcode.com/problems/minimum-size-subarray-sum/
+    209 - 'IMP que ' - Smallest Subarray with a given sum (easy) -        https://leetcode.com/problems/minimum-size-subarray-sum/
 gfg:    -      Maximum Sum Subarray of Size K (easy) -               https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
      
     424. Longest Repeating Character Replacement (Hard) - https://leetcode.com/problems/longest-repeating-character-replacement/
     1004. Max Consecutive Ones III (Medium) - https://leetcode.com/problems/max-consecutive-ones-iii/
+    
+
+    76. Minimum Window Substring (Hard) - https://leetcode.com/problems/minimum-window-substring/
+    

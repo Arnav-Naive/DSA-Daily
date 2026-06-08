@@ -6,7 +6,7 @@ Interview Perspective
 AI perspective(not too much basic to ini=termediate)
 
 > fill me if am missing somthing imp in this notes
-> make each section in diffent fro other , it donsent matter if u have to repeat the topic but just include it in all sections from  0 -> hero And also make sure keep the languge very simole and easy can use Hinglish for better understanding :D
+> make each section in diffent fro other , it donsent matter if u have to repeat the topic but just include it in all sections from  0 -> hero And also make sure keep the languge very simple and easy can use Hinglish for better understanding :D
 
 ## what i learned from Apna college
 
@@ -673,7 +673,7 @@ for better understand --- but in that video he said Watch: Programming Terms: Cl
 
 Rabbit hole: Classes > Decorators > Closures > First-Class Functions.
 
-I watched first class function :
+I watched    :
     in that everything was confusing to read the code so i concluded that,[so basicallly thiis 'First-Class Functions' confusing for the programmer --> so we use decorators (pls correct if am wrong)]
 
 Closures:
@@ -696,10 +696,141 @@ so can we say that a closure is a closure or decorator? [in one word]
 
 -> [in this video he said 'decorator a function that lets you modify a function...']
 
-[____________________________________________________]
+So what i understood is decorators are (in simple words add extra feature to existing function--- for ex @my_logger is decorator jo ek function hota hai aur uske andar bhi ek function hota , aur jo inner function wapis outer function ko return krti uske baad outer function khatam ho jata hai fir bhi inner function ko memory reatins rhki hai unko aur agar hume any positional argumens chaheye tho *args --> for positional arguments that gives in the form of (tuple,tuple,...)  (and also*args can be unpacked to another function.) and **kwargs --> for keyword arguments that gives in the form of dictionary (and also**kwargs can be unpacked to another function.) ) mainly used to __maintain the syntax of the code__
+
+[_____________________________________________
+
+```python
+class Employee:
+    raise_amt = 1.04
+
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@company.com'
+    
+    def fullname(self):
+        return f"{self.first} {self.last}"
+
+    def apply_raise(self):
+        self.pay = int(self.pay * self.raise_amt)
+
+# subclass
+class Developer(Employee):
+    pass                     # chain - method resolution order (mro)
+    raise_amt = 1.10         # [Developer(more preference) > Employee] --> order matters
+
+dev_1 = Developer('Corey', 'Schafer', 50000)
+dev_2 = Developer('Test', 'Employee', 90000)
+
+print(dev_1.pay)
+dev_1.apply_raise()
+print(dev_1.pay)
+```
+
+# _____________________
+Python OOP Tutorial 4: Inheritance - Creating Subclasses
+
+class Developer(Employee):
+    def __init__(self, first, last, pay, prog_lang):
+        super().__init__(self, first,last, pay)
+        self.prog_lang = prog_lang
+
+dev_1 = Developer("Corey", "MS", 900000, "Python")
+
+class Manager:
+
+    def __init__(self, first, last, pay, employees=None): # better not to pass mutable datatyles like list or dict as default arguments
+        super().__init__(self, first,last, pay)
+        if employees is None:
+            self.employees = []
+        else:
+            self.employees = employees
+            
+    def add_emp(self, emp):
+        if emp not in self.emplpyee:
+            self.employee.append(emp)
+            
+    def remove_emp(self, emp):
+        if emp in self.emplpyee:
+            self.employee.remove(emp)
+            
+    def print_emps(self):
+        for emp in self.employees:
+            print('--> ', emp.fullname())
+
+dev_1 = Developer('Corey', 'Schafer', 50000)
+dev_2 = Developer('Test', 'Employee', 90000)
+
+mag_1 = Manager('Sue', 'Smith', 89898, [dev_1]):
+
+print(mag_1.email)
+
+mag_1.add_emp(dev_2)
+mag_1.remove_emp(dev_1)
+
+mag_1.print_emps() # --> Test Employee
+
+>> so we realy get to use nicesly here if we use subclassing correctly
+
+_________________
+
+Python has these 2 builtin :
+    isinstance -> Tell us if an object is an instace of a class
+        ~   print(isinstance(mag_1, Manager)) #True
+        ~   print(isinstance(mag_1, Employee)) #also True
+        ~   print(isinstance(mag_1, Developer)) #false
+    issubclass -> tell us if a class is a subclass of another
+        ~   print(issubclass(Developer, Employee)) #True
+        ~   print(issubclass(Manager, Employee)) #True
+        ~   print(issubclass(Manager, Developer)) #False
+
+##
+
+Pyhton wisky librarly is the best example for inheritence_______]
 [____________________________________________________]
 
+
+
+# Python OOP Tutorial 5: Special (Magic/Dunder) Methods
+
+
+
+Summary:
+
+• Dunder Methods: Special methods are surrounded by double underscores (aka "dunder"). They allow you to customize how objects behave with built-in functions and operators.
+
+• _init__: The ___init__ method is a special method used for initializing objects.
+
+• _repr_ and _str_ :
+	◦ __repr__ is for an unambiguous representation of the object, mainly for debugging. It should ideally output a string that can recreate the object.
+	◦ __str__ is for a more readable representation for the end-user.
+
+• Arithmetic Methods: Python uses special methods for arithmetic operations. For example, adding integers uses the __add__ method. You can customize these for your objects.
+
+• _len_ : The __len__ method allows you to customize the behavior of the len() function for your objects.
+
+• Real-World Examples: The video explores examples from the standard library, such as the datetime module, to illustrate the practical use of dunder methods.
+
+_repr_ and _str_(I donr get it quite actually...)
+
+# [[Thsi is the summary i copied form comment section, but it was not that easy to understand so can you explain this in very easy steps and with the help of analogise in python only]And one more thin is if its even necessary in DSA and Interview basically getting 1st job if so Mention that specially and it applies for all the topics]
+
+
+
 [____________________________________________________][____________________________________________________]
+## Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters
+
+```````
+>> I dont quite get this video...
+what i actually understoood that we use property decorator taki asani se (without using parentheses) hum getter and setter ka use kar sake aur 
+
+thsi is nice feature because it allows access attributes without putting getters and setter everywhere but if we need that functionality teh its easy to add in with property decorator And if u do this correctly people using our class wont need need to change our code because they will still be able to acces those attributes as the same way they did before
+
+but i didnt get the feel of the full video so can you explain this in a very easy and step by step maner with analogise(becasue i learn more that way)
+
+```
 
 [____________________________________________________][____________________________________________________]
 

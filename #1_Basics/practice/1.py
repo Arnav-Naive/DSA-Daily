@@ -8,4 +8,4 @@ if num // 7 :
 else:
     print("Not a multiple of 7")
 
-    # nums//7 gives 
+    # nums//7 gives 0 for   

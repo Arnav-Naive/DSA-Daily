@@ -6,15 +6,7 @@
 
 ### Formula
 
-[
-\text{Angle} = \frac{1}{2}\left|60 \times \text{hr} - 11 \times \text{min}\right|
-]
-
-If the angle is greater than 180°, then:
-
-[
-\text{Smaller Angle} = 360 - \text{Angle}
-]
+Angle = (1/2) × |(60 × hr) - (11 × min)|
 
 ### Code
 

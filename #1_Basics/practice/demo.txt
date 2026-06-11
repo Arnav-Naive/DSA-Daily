@@ -1,3 +1,0 @@
-i am learning 
-python form apna college
-int(387)

@@ -31,15 +31,15 @@ class LinkedList:
       curr = curr.next
 
   # # Traverse (PRINT.. ->)
-  # def traversePrint(self):
-  #   curr = self.head
+  def traversePrint(self):
+    curr = self.head
 
-  #   res = ''
-  #   while curr != None:
-  #     res += str(curr.value) + '->'
-  #     curr = curr.next
+    res = ''
+    while curr != None:
+      res += str(curr.value) + '->'
+      curr = curr.next
 
-  #   return res[:-2]
+    return res[:-2]
 
   ## Insert TAIL
   def append(self, value):
@@ -190,3 +190,20 @@ class LinkedList:
 
     curr.next = curr.next.next
     self.n -= 1
+
+
+
+L = LinkedList()
+
+
+L.append(10)
+L.append(20)
+L.append(30)
+L.append(40)
+
+
+print(L.traversePrint())
+
+# Delete node with value 20
+L.remove(20)
+print(L.traversePrint())

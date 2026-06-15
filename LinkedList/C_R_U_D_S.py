@@ -156,6 +156,7 @@ class LinkedList:
 
     # nahi mila
     return -1   # 'Not found'
+
   # search by index ulta ex: L[2] --> 2nd index me kya h?
   # __magic__ method use krege
   def __getitem__(self, idx):

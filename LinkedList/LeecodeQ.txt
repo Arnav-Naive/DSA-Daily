@@ -1,5 +1,16 @@
-141. Linked List Cycle
 206. Reverse Linked List
+
+141. Linked List Cycle
+
 876. Middle of the Linked List
 
+142. Linked List Cycle II
+
 287. Find the Duplicate Number
+
+202. Happy Number
+
+
+
+IMPORTANT: 
+the best method to solve the cyclic Linked list problem is the slow and fast pointer method

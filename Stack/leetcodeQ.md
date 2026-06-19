@@ -1,9 +1,8 @@
-344. Reverse String
+1. Reverse String
 
-20. Valid Parentheses
+2. Valid Parentheses
 
-
-
+GFG - The Celebrity Problem    <https://www.geeksforgeeks.org/problems/the-celebrity-problem/1> -
 --------------------------------------------------------------------------------------
 
 🚀 Problem Statement: The Celebrity Problem
@@ -15,11 +14,7 @@ Celebrity ki definition yeh hai:
 
 2. Celebrity ko sab jaante hain? Haan, party ka har ek insaan Celebrity ko jaanta hai.
 
-
-
 Tumhe ek $n \times n$ binary matrix $M$ di jayegi, jahan:M[i][j] = 1 ka matlab hai: Insaan i, insaan j ko jaanta hai.M[i][j] = 0 ka matlab hai: Insaan i, insaan j ko nahi jaanta.
-
-
 
 Task: Celebrity ka index return karo. Agar party me koi celebrity nahi hai, toh -1 return karo.
 
@@ -33,7 +28,6 @@ Matrix M:
 3 | 0  0  0  0 |
 ^
 log (Rows)
-
 
 Row 0: M[0][3] = 1 -> $0$ jaanta hai $3$ ko.
 Row 1: M[1][3] = 1 -> $1$ jaanta hai $3$ ko.

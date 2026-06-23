@@ -7,3 +7,5 @@ GFG:
 leetccode:
     35. Search Insert Position
     34. Find First and Last Position of Element in Sorted Array
+
+    875. Koko Eating Bananas 

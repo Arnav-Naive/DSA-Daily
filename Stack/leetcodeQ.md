@@ -1,6 +1,8 @@
-1. Reverse String
+. Reverse String
 
-2. Valid Parentheses
+. Valid Parentheses
+
+1. Remove All Adjacent Duplicates In String
 
 GFG - The Celebrity Problem    <https://www.geeksforgeeks.org/problems/the-celebrity-problem/1> -
 --------------------------------------------------------------------------------------

@@ -2,7 +2,9 @@
 
 . Valid Parentheses
 
-1. Remove All Adjacent Duplicates In String
+. Remove All Adjacent Duplicates In String
+
+503. Next Greater Element II (attempted only)
 
 GFG - The Celebrity Problem    <https://www.geeksforgeeks.org/problems/the-celebrity-problem/1> -
 --------------------------------------------------------------------------------------

@@ -18,4 +18,4 @@ print(heap[0])  # Output: 1
 smallest = heapq.heappop(heap)
 print(smallest)  # Output: 1
 
-- in python the heap is max
+- in python the heap is **min** (by default). For max heap, negate values: push -val, pop -val

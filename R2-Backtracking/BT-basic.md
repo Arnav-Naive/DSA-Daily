@@ -18,3 +18,17 @@ We start with an empty solution and try to add elements to it one by one. If at 
                                             |    tree        |
                                             |                |
                                             ----------------
+
+                                            
+example:            
+                 
+                 
+                 
+                        "A"
+                    /      \ 
+                   /        \ 
+                 "AA"       "AB"
+               /   \        /   \
+              /     \      /     \
+            "AAA"   "AAB" "ABA" "ABB"
+            ...     

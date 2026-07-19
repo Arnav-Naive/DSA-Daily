@@ -39,3 +39,4 @@ def min_max(nums):
     return min(nums), max(nums)
 
 lo, hi = min_max([3, 1, 4])  # lo=1, hi=4
+

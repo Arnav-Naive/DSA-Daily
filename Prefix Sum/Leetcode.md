@@ -1,6 +1,6 @@
 leetcode:
-    Subarray Sum Equals K (EASY)    	https://leetcode.com/problems/subarray-sum-equals-k/description/		  
-    Find Pivot Index (EASY)	            https://leetcode.com/problems/find-pivot-index/description/		   
+    724 | Find Pivot Index (EASY)	         |    https://leetcode.com/problems/find-pivot-index/description/		   
+    560 | Subarray Sum Equals K (EASY)       |   	https://leetcode.com/problems/subarray-sum-equals-k/description/		  
     Subarray Sums Divisible By K (Med)	https://leetcode.com/problems/subarray-sums-divisible-by-k/description/		
     Contiguous array (MED)	            https://leetcode.com/problems/contiguous-array/description/		
     

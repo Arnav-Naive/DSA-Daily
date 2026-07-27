@@ -1,6 +1,6 @@
 Playlist : https://www.youtube.com/playlist?list=PLbGui_ZYuhijd1hUF2VWiKt8FHNBa7kGb
 
-MRO
+MRO -method resolution order
 
 Polymorphism
 
@@ -13,4 +13,5 @@ Pickling | Unpickling
 
 Logging - https://youtu.be/aCk-qE_WQJ4?si=TErDXFPyfUHsyyUf
 
-[ For better read -> go to my copyNotes ]
+[For better read -> go to my copyNotes]
+

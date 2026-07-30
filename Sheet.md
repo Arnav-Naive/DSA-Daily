@@ -7,3 +7,7 @@ Array :
     Maximum Consecutive Ones	https://leetcode.com/problems/max-consecutive-ones/description/
     Palindromic Array	        https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1
     283. Move Zeroes
+    Sort array with 0's 1's and 2's (Dutch Flag)   https://leetcode.com/problems/sort-colors/
+    Equilibrium Point    https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1
+    Reverse Integer      https://leetcode.com/problems/reverse-integer/description/
+    Leaders in Array     https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card

@@ -11,3 +11,4 @@ Array :
     Equilibrium Point    https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1
     Reverse Integer      https://leetcode.com/problems/reverse-integer/description/
     Leaders in Array     https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
+    Increasing Array       https://cses.fi/problemset/task/1094/

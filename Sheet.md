@@ -12,3 +12,6 @@ Array :
     Reverse Integer      https://leetcode.com/problems/reverse-integer/description/
     Leaders in Array     https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card
     Increasing Array       https://cses.fi/problemset/task/1094/
+    Rearrange Array Elements by Sign - https://leetcode.com/problems/rearrange-array-elements-by-sign/
+    Rotate Array by One     - https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
+    Majority Element I (Boyer - Moore) - https://leetcode.com/problems/majority-element/

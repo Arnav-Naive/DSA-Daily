@@ -15,3 +15,5 @@ Array :
     Rearrange Array Elements by Sign - https://leetcode.com/problems/rearrange-array-elements-by-sign/
     Rotate Array by One     - https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
     Majority Element I (Boyer - Moore) - https://leetcode.com/problems/majority-element/
+    Rotate Array by K steps - https://leetcode.com/problems/rotate-array/
+    Wiggle Sort II - https://leetcode.com/problems/wiggle-sort-ii/description/
